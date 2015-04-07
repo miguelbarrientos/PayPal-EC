@@ -82,8 +82,8 @@ define('PROXY_PORT', '80');
 //Continue
 //define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&cmd=_express-checkout&token=');
 //Pay now
-//define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
-define('PAYPAL_URL', 'https://www.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
+define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
+//define('PAYPAL_URL', 'https://www.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
 //Mobile Express Checkout
 //define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout-mobile&token=');
 
