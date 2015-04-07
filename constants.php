@@ -45,7 +45,7 @@ define('API_SIGNATURE', 'AYvcle.k3I9qt53iU0TVyoFl8AcoACP8wp44NvIL46mEFmvdOB6qTJ9
 # Endpoint: this is the server URL which you have to connect for submitting your API request. https://api-3t.sandbox.paypal.com/nvp
 */
 
-define('API_ENDPOINT', 'https://api-3t.paypal.com/nvp');
+define('API_ENDPOINT', 'https://api-3t.sandbox.paypal.com/nvp');
 
 /*
  # Third party Email address that you granted permission to make api call.
@@ -83,7 +83,7 @@ define('PROXY_PORT', '80');
 //define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&cmd=_express-checkout&token=');
 //Pay now
 //define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
-define('PAYPAL_URL', 'https://www.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
+define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout&token=');
 //Mobile Express Checkout
 //define('PAYPAL_URL', 'https://www.sandbox.paypal.com/webscr&useraction=commit&cmd=_express-checkout-mobile&token=');
 
